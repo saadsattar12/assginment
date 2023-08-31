@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="stopwatch">
+        <h1 id="mints">
+            00 :
+        </h1>
+        <h1 id="sec">
+            00 :
+        </h1>
+        <h1 id="ms">
+            00 :
+        </h1>
+    </div>
+    <div class="btn">
+        <button id="btn1" onclick="start()">play</button>
+        <button id="btn2" onclick="stop()">pause</button>
+        <button id="btn3" onclick="resetTimer()">reset</button>
+    </div>
+
+    <!-- /* reverse stopwatch */ -->
+
+    <div class="countdown">
+
+        <h1 id="countdownDisplay">10:00</h1>
+    </div>
+
+    <div class="countdownBtn">
+        <button id="start" onclick="startCountdown()">Start</button>
+        <button id="stop" onclick="stopCountdown()">Stop</button>
+        <button id="reset" onclick=" resetCountdown()">reset</button>
+    </div>
+
+    <!-- /* CALULATOR */ -->
+
+    <div class="calulator">
+        <div class="inputBox">
+            <input type="text" id="getResult">
+        </div>
+        <div>
+
+            <div class="btnAll">
+                <button class="button" id="clear" onclick="clearAll()">AC</button>
+                <button class="button" onclick="getValue('/')">/</button>
+            </div>
+            <div class="btnAll">
+                <button class="button" onclick="getValue(7)">7</button>
+                <button class="button" onclick="getValue(8)">8</button>
+                <button class="button" onclick="getValue(9)">9</button>
+                <button class="button" onclick="getValue('*')">*</button>
+            </div>
+            <div class="btnAll">
+                <button class="button" onclick="getValue(4)">4</button>
+                <button class="button" onclick="getValue(5)">5</button>
+                <button class="button" onclick="getValue(6)">6</button>
+                <button class="button" onclick="getValue('-')">-</button>
+            </div>
+            <div class="btnAll">
+                <button class="button" onclick="getValue(1)">1</button>
+                <button class="button" onclick="getValue(2)">2</button>
+                <button class="button" onclick="getValue(3)">3</button>
+                <button class="button" onclick="getValue('+')">+</button>
+            </div>
+            <div class="btnAll">
+                <button class="button" onclick="getValue('0')">0</button>
+                <button class="button" onclick="getValue('.') ">.</button>
+                <button class="button" onclick="clickBack('Back')">Back</button>
+                <button class="button" onclick="calculateValue('=')">=</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

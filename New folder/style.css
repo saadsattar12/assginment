@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.stopwatch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: larger;
+}
+
+#mints {
+    margin: 10px;
+}
+
+#sec {
+    margin: 10px;
+}
+
+#ms {
+    margin: 10px;
+
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#btn1 {
+    margin: 10px;
+    background-color: rgb(70, 117, 204);
+    font-size: larger;
+    border-radius: 10px;
+}
+
+#btn2 {
+    margin: 10px;
+    background-color: rgb(70, 117, 204);
+    font-size: larger;
+    border-radius: 10px;
+}
+
+#btn3 {
+    margin: 10px;
+    background-color: rgb(70, 117, 204);
+    font-size: larger;
+    border-radius: 10px;
+}
+                          /* reverse stopwatch */
+.countdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: larger;
+}
+
+#countdownDisplay {
+    margin: 10px;
+
+
+}
+
+.countdownBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#start {
+    margin: 10px;
+    background-color: rgb(70, 117, 204);
+    font-size: larger;
+    border-radius: 10px;
+}
+
+#stop {
+    margin: 10px;
+    background-color: rgb(70, 117, 204);
+    font-size: larger;
+    border-radius: 10px;
+}
+
+#reset {
+    margin: 10px;
+    background-color: rgb(70, 117, 204);
+    font-size: larger;
+    border-radius: 10px;
+}
+
+                           /* CALULATOR */
+
+.calulator {
+    margin-left: 700px;
+    margin-top: 100px;
+    width: 200px;
+    height: 250px;
+    border: 2px solid rgb(43, 36, 36);
+    background-color: rgb(34, 27, 27);
+    border-radius: 10px;
+}
+
+.inputBox {
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 2px;
+}
+
+.btnAll {
+    margin: 3px;
+    padding: 2px;
+
+}
+
+.button {
+    background-color: rgb(124, 120, 120);
+    color: black;
+    border-radius: 4px;
+    box-shadow: 5px;
+    padding: 5px;
+    width: 23%;
+
+}
